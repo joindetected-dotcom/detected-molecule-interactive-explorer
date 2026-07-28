@@ -507,7 +507,7 @@ if smiles.strip():
         if img:
             col_img, col_props = st.columns([1, 1])
             with col_img:
-                st.image(img, caption="2D Structure", use_container_width=True)
+                st.image(img, caption="2D Structure", use_column_width=True)
                 # Download button
                 buffered = BytesIO()
                 img.save(buffered, format="PNG")
