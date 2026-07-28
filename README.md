@@ -1,25 +1,8 @@
-# 🎈 Blank app template
-
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
-
-### How to run it on your own machine
-
-Prerequisite: install `uv` if you don't already have it.
-
-```
-$ curl -LsSf https://astral.sh/uv/install.sh | sh
-```
-
-1. Sync the dependencies
-
-   ```
-   $ uv sync
-   ```
-
-2. Run the app
-
-   ```
-   $ uv run streamlit run streamlit_app.py
-   ```
+streamlit>=1.28.0
+rdkit-pypi>=2023.9.3
+Pillow>=10.0.0
+requests>=2.31.0
+py3Dmol>=2.0.0
+stmol>=0.1.6
+streamlit-ketcher>=0.2.0
+pandas>=2.0.0
