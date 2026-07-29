@@ -370,7 +370,7 @@ st.markdown("*For teaching cheminformatics – early disease detection & AI*")
 
 # Sidebar
 with st.sidebar:
-    st.markdown("### 🔬 DetectED Nonprofit")
+    st.markdown("### 🔬 DetectED Learning Labs")
     st.markdown("*Advancing disease detection through education*")
     
     st.markdown("---")
