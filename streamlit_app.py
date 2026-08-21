@@ -429,7 +429,7 @@ tab1, tab2, tab3 = st.tabs(["✏️ Draw Structure", "⌨️ Type SMILES", "📚
 
 with tab1:
     st.markdown("**Draw your molecule using the editor below:**")
-    st.markdown("*Click on atoms to add elements, drag to create bonds. Click 'Apply' when done.*")
+    st.markdown("*Click on atoms to add elements, drag to create bonds. Double click 'Apply' when done.*")
     
     try:
         drawn_smiles = st_ketcher(smiles)
